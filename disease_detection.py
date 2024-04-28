@@ -121,6 +121,7 @@ else:
             img = tf.image.decode_image(img, channels=3)
             img = tf.image.resize(img, size=[224, 224])
             img=img/255.
+            print(img.shape)
 
             # print(np.array(model(tf.expand_dims(img, axis=0)))[0].max())
 
