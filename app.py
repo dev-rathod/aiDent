@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Testing landing!"
+    return "Testing Landing!"
